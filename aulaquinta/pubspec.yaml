@@ -1,0 +1,32 @@
+name: pedra_papel_tesoura
+version: 1.0.0+1
+description: "Um simples jogo de Pedra, Papel e Tesoura em Flutter"
+
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imagens/pedra.png
+    - assets/imagens/papel.png
+    - assets/imagens/tesoura.png
+    - assets/imagens/padrao.png
+    - assets/imagens/vitoria.png
+    - assets/imagens/icons8-aperto-de-mãos-100.png
+    - assets/imagens/icons8-perder-48.png
